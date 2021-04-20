@@ -19,3 +19,11 @@ Example of required budget file is below:
 }
 
 Known caveats: this is a proof of concept that has not been used in production.
+
+Considered useful before approaching this type of solution:
+
+https://aws.amazon.com/ru/getting-started/tutorials/create-a-serverless-workflow-step-functions-lambda/
+
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html
+
+https://docs.aws.amazon.com/cli/latest/reference/s3/index.html
