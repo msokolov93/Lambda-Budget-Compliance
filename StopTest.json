@@ -1,0 +1,10 @@
+{
+  "instances": [
+    "i-04528b824367a49d7",
+    "i-0b707a5d7c2da11ec",
+    "i-03b36372aa3970f92"
+  ],
+  "logs": [
+    "GetInstancesUsage is fine!  GetInstancesUsage is fine! Compare Usage Plan worked!"
+  ]
+}

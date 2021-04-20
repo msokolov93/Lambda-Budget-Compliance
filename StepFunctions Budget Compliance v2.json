@@ -1,0 +1,20 @@
+{
+  "StartAt": "Get List of Working Instances",
+  "States": {
+    "Get List of Working Instances": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:eu-central-1:578722633872:function:getListOfWorkingInstances",
+      "Next": "Update Budget Usage"
+    },
+    "Update Budget Usage" :{
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:eu-central-1:578722633872:function:UpdateBudgetUsage",
+      "Next": "Terminate Instances"
+    },
+    "Terminate Instances": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:eu-central-1:578722633872:function:lambdaStopInstancesById",
+      "End": true
+    }
+  }
+}
