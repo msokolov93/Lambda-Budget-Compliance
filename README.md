@@ -4,7 +4,7 @@ Detect and delete unnecessary instances
 
 Add 3 lambda functions, add roles that allow access to EC2, S3.
 
-Run stepFunctions with line of getListOfWorkingInstances - UpdateBudgetUsage - StopInstancesById
+Run stepFunctions on a timer with line of getListOfWorkingInstances - UpdateBudgetUsage - StopInstancesById
 
 Example of required budget file is below:
 
