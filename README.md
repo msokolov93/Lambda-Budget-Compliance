@@ -1,4 +1,4 @@
-# LambdaInstances
+# Lambda-Budget-Compliance
 Detect and delete unnecessary instances
 
 
